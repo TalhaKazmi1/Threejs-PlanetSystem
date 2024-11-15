@@ -6,7 +6,7 @@ import React from 'react';;
 
 const ThreeDModelPage: React.FC = () => {
   return (
-    <div style={{ height: '100vh' }}>
+    <div className='flex items-center justify-center h-screen'>
     <ThreeScene />
   </div>
   );
